@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#fullpage {
+    height: 100vh;
+    width: 100%
+}
+#fullpage section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: #594F4F;
+}
+#fullpage section:nth-child(1) {
+    background-color: rgb(28,30,38);
+}
+#fullpage section:nth-child(2,3) {
+    background-color: #F8F8F8;
+}
+#fullpage section:nth-child(4) {
+    background-color: #45ADA8;
+}
+#fullpage section:nth-child(5) {
+    background-color: rgb(28,30,38);
+}
+
+#logo {
+    height: 100%;
+    width: auto;
+}
+.name {
+    line-height: 30px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    font-family: Adam;
+    font-size: 20px;
+    letter-spacing: 22;
+}
+i {
+  border: solid black;
+  border-width: 0px 2px 2px 0px;
+  display: inline-block;
+  padding: 10px 10px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.arrow {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+}
+.header {
+    height: 20%;
+    width: 30%;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+    display: block;
+    color: #F8F8F8;
+}
+.headerline {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 30%;
+    background-color: #F8F8F8;
+    height: 50%;
+    width: 1px;
+}
+.about {
+    color: rgb(40,40,40);
+    position: absolute;
+    width: 35%;
+    top: 150px;
+    left: 250px;
+    font-family: sans-serif;
+}
+.sectionhead {
+    font-family: Adam;
+    font-weight: 600;
+    font-size: 50px;
+    position: absolute;
+}
+.sectiontext {
+    top: 80px;
+    position: absolute;
+}
+.quotes {
+    position: absolute;
+    width: 25%;
+    top: 500px;
+    left: 100px;
+    font-family: sans-serif;
+}
+.propic {
+    position: absolute;
+    top: 22%;
+    border-radius: 50%;
+    height: 260px;
+    right: 20%;
+}
+.contact {
+    position: absolute;
+    top: 10%;
+}
+.contact input, textarea {
+    position: absolute;
+    background-color: inherit;
+    border-color: #F8F8F8;
+    resize: none;
+    font-family: century gothic;
+    color: #F8F8F8;
+}
+.contact input[type=text], input[type=email] {
+    border: none;
+    border-bottom:solid #F8F8F8 1px;
+    padding: 10px 15px;
+    top: 100px;
+    width: 27vw;
+}
+input#name {
+    left: 20vw;
+}
+input#email {
+    left: 53vw;
+}
+input#submitform {
+    width: 160px;
+    padding: 15px 15px;
+    position: absolute;
+    top: calc(240px + 30vh);
+    left: calc(50vw - 80px)
+}
+.contact textarea {
+    width: 60vw;
+    height: 30vh;
+    top: 200px;
+    left: 20vw;
+    padding: 15px 15px;
+}
+.contact textarea:focus, input:focus{
+    outline: none;
+}
+.footer {
+    border-top: solid rgb(60,60,60) 1px;
+    color: #F8F8F8;
+    height: 60px;
+    width: 100%;
+    font-family: sans-serif;
+    position: absolute;
+    font-size: 14px;
+    right: 0;
+    bottom: 0;
+}
+
+/* ScrollBar */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+
+
+/* Blog */
+
+#blog {
+    height: 80vh;
+    width: 50vw;
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    overflow: hidden !important;
+}

@@ -1,0 +1,422 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bgimage{
+	background-image: url('tt.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  color: #594F4F;
+}
+
+.about {
+    color: WHITE;
+    position: absolute;
+    width: 32%;
+    top: 150px;
+    left: 50vw;
+    font-family: sans-serif;
+}
+
+
+
+#page-1 , #page-1-clone {
+  background-color: rgb(28,30,38);
+}
+#page-2 {
+  background-color: black;
+}
+#page-3 {
+  background-color: black;
+}
+#page-4 {
+  background-color: black;
+}
+#page-5 {
+  background-color: rgb(28,30,38);
+}
+
+
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+/*	background-color: yellow;*/
+}
+
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+/*	background-color: red; */
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+}
+
+.rightmenu ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+}
+
+#fisrtlist{
+	color: pink;
+}
+
+.rightmenu ul li:hover{
+	color: pink;
+}
+
+
+.sectionhead {
+    font-family: Couture;
+    font-weight: 100;
+    font-size: 50px;
+    position: absolute;
+}
+
+.sectiontext {
+    top: 80px;
+    position: absolute;
+    font-family: Adam;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+}
+
+.og{
+	width: 100%;
+	margin-top: 7px;
+	text-transform: uppercase;
+	text-align: center;
+	color: WHITE;
+	border: 6px solid white;
+
+
+}
+
+.op{
+	width: 100%;
+	margin-top: px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+	background-color: blue;
+}
+
+.text h4{
+
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text h1{
+	font-size:62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+}
+
+.text h3{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+/*  till here added  */
+
+
+/* Form css starts */
+
+#buttonone{
+	background-color: black;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid white;
+	color:white;
+}
+
+#buttontwo{
+
+	background-color: transparent;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+	border: 3px solid white;
+	width: 150px;
+}
+
+
+.contact {
+    position: absolute;
+    top: 10%;
+}
+.contact input, textarea {
+    position: absolute;
+    background-color: inherit;
+    border-color: #F8F8F8;
+    resize: none;
+    font-family: century gothic;
+    color: #F8F8F8;
+}
+.contact input[type=text], input[type=email] {
+    border: none;
+    border-bottom:solid #F8F8F8 1px;
+    padding: 10px 15px;
+    top: 100px;
+    width: 27vw;
+}
+input#name {
+    left: 20vw;
+}
+input#email {
+    left: 53vw;
+}
+input#submitform {
+    width: 160px;
+    padding: 15px 15px;
+    position: absolute;
+    top: calc(240px + 30vh);
+    left: calc(50vw - 80px)
+}
+.contact textarea {
+    width: 60vw;
+    height: 30vh;
+    top: 200px;
+    left: 20vw;
+    padding: 15px 15px;
+}
+.contact textarea:focus, input:focus{
+    outline: none;
+}
+.footer {
+    border-top: solid rgb(60,60,60) 1px;
+    color: #F8F8F8;
+    height: 60px;
+    width: 100%;
+    font-family: sans-serif;
+    position: absolute;
+    font-size: 14px;
+    right: 0;
+    bottom: 0;
+}
+
+/* form css ends */
+a {
+  color: #2c87f0;
+}
+a:visited {
+  color: black;
+}
+a:hover, a:active, a:focus {
+  color:pink;
+}
+body{
+  background: #f1f1f1;
+  font-family: 'intro';
+  margin: 0;
+  padding: 0;
+}
+.post{
+  width: 600px;
+  height: 400px;
+  position: relative;
+  cursor: pointer;
+}
+.post:hover .post-s{
+  width: 600px;
+}
+.post img {
+  display: block;
+  width: 600px;
+  height: 400px;
+}
+.post-s{
+  width: 0px;
+  height: 400px;
+  background: rgba(103, 58, 183, 0.71);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+.post-s h2{
+  color: white;
+  font-size: 50px;
+  border: 6px solid white;
+  padding: 10px 30px;
+	font-family: "Adam";
+}
+
+.left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,700');
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: 300;
+	font-size: 20px;
+}
+
+.basic-example {
+  display: flex;
+}
+
+.text p:target { background: red; }
+
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: ;
+  background: limegreen;
+  padding: .5em 1.25em;
+}
+
+.portfolio {
+  display: grid;
+  grid: auto / repeat(auto-fit, minmax(15em, 1fr));
+  grid-gap: 5em;
+  background: black;
+  padding: 10em 4em;
+}
+
+.portfolio__item {
+  position: relative;
+  flex-basis: 30%;
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+.portfolio__desc {
+  padding: 1.5em;
+}
+
+.portfolio__title {
+  font-family: 'Adam', sans-srif;
+	font-weight: bold;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+
+.portfolio__image,
+.portfolio-lightbox__image{
+  width: 100%;
+  display: block;
+}
+
+.portfolio-lightbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0,1);
+  transition: transform 150ms ease-in-out;
+  transform-origin: right;
+  padding: 2em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  background: rgba(0, 0, 0, .5);
+  // box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .25);
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+
+.portfolio-lightbox:target {
+  transform: scale(1,1);
+  transform-origin: left;
+
+}
+
+.portfolio-lightbox__content {
+  width: 45%;
+  padding: 1em;
+  background: black;
+  position: relative;
+}
+
+.portfolio__lightbox__image { margin-bottom: 1em; }
+
+.close {
+  position: absolute;
+  right: -1em;
+  top: -1em;
+  border: white 2px solid;
+  display: flex;
+  width: 2em;
+  height: 2em;
+  background: red;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.close::after {
+  content: 'x';
+  color: white;
+}
+
+}
